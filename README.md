@@ -1,5 +1,5 @@
 # Ferramentas Programacao
-Ferramentas de Programação usadas pelo Prof. Ed
+Ferramentas de Programação usadas pelo Prof. Ed é um repositório onde guardo e compartilho coisas úteis de programação como Snippets, Scripts, arquivos JSON de configuração, Temas, Stylesheets e outras coisas úteis.
 
 Contatos do professor: 
 - e-mail: edkallenn@yahoo.com.br
