@@ -1,0 +1,178 @@
+{
+/*
+Snippets pessoais de linguagem C do prof. Ed
+
+*/
+
+	"Escreve o main": {
+		"prefix": "main",
+		"body": [
+			"main(){\n	$1\n}"			
+		],
+		"description": "Escreve o class"
+	},
+
+	"Escreve os printf": {
+		"prefix": "pl",
+		"body": [
+			"printf(\"%$2d\", &$1);"			
+		],
+		"description": "Escreve o printf"
+	},
+		
+		"Escreve os printf2": {
+		"prefix": "print",
+		"body": [
+			"printf(\"%$2d\", &$1);"			
+		],
+		"description": "Escreve o printf"
+	},
+
+	"Escreve os printf3": {
+		"prefix": "escreva",
+		"body": [
+			"printf(\"%$2d\", &$1);"			
+		],
+		"description": "Escreve o printf"
+	},
+
+		"Escreve os scan": {
+		"prefix": "sc",
+		"body": [
+			"scanf(\"%$2d\", &$1);"			
+		],
+		"description": "Escreve o class"
+	},
+
+	"Escreve os scan2": {
+		"prefix": "scan",
+		"body": [
+			"scanf(\"%$2d\", &$1);"			
+		],
+		"description": "Escreve o class"
+	},
+
+	"Escreve os scan3": {
+		"prefix": "leia",
+		"body": [
+			"scanf(\"%$2d\", &$1);"			
+		],
+		"description": "Escreve o class"
+	},
+
+
+	"Escreve os includes": {
+		"prefix": "inc",
+		"body": [
+			"#include<stdio.h>\n#include<stlib.h>\n"			
+		],
+		"description": "Escreve o class"
+	},
+
+	"Escreve o typedef": {
+		"prefix": "ty",
+		"body": [
+			"typedef struct $1myStruct{\n	$2	\n}$3;"			
+		],
+		"description": "Escreve o class"
+	},
+
+	"Escreve o struct": {
+		"prefix": "st",
+		"body": [
+			"struct $1myStruct{\n	$2	\n}$3;"			
+		],
+		"description": "Escreve o struct"
+	},
+
+
+"Escreve o case": {
+		"prefix": "cs",
+		"body": [
+			"case $1:\n\t$2\n$0"			
+		],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o else if":{
+    "prefix": "elif",
+    "body": [
+		"else if ($1) {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o do while":{
+    "prefix": "dow",
+    "body": [
+		"do {\n\t$1\n} while ($2);$0"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o else":{
+    "prefix": "el",
+    "body": ["else {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o for":{
+    "prefix": "for",
+    "body": [
+		"for (int $1; $2; $3) {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o if":{
+    "prefix": "if",
+    "body": ["if ($1) {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+/*
+  "Escreve o include":{
+    "prefix": "in",
+    "body": ["#include<$0>"],
+		"description": "Escreve o include"
+	},
+*/
+
+  "Escreve o return":{
+    "prefix": "re",
+    "body": ["return "],
+		"description": "Escreve o case"
+	},
+
+
+  "Escreve o static":{
+    "prefix": "st",
+    "body": ["static "
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o switch":{
+    "prefix": "sw",
+    "body": ["switch ($1) {\n\t$0\n}"],
+		"description": "Escreve o case"
+	},
+
+
+	
+"Escreve o break":{
+    "prefix": "br",
+    "body": ["break;\n"],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o while":{
+    "prefix": "wh",
+	"body": ["while ($1) {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	}
+
+
+}
