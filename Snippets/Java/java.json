@@ -1,0 +1,304 @@
+{
+/*
+Autor: Edkallenn
+Data: 21/06/2016
+Função: Snippets alterados pelo prof. Ed
+Observação: falta alterar todos os descriptions. Este código é para o Visual Studio Code 
+
+*/
+	"Escreve o class": {
+		"prefix": "cl",
+		"body": [
+			"class $1myClass{\n	\n}"			
+		],
+		"description": "Escreve o class"
+	},
+
+	"Escreve o abstract": {
+		"prefix": "ab",
+		"body": [
+			"abstract"			
+		],
+		"description": "Escreve o abstract"
+	},
+
+"Escreve o case": {
+		"prefix": "cs",
+		"body": [
+			"case $1:\n\t$2\n$0"			
+		],
+		"description": "Escreve o case"
+	},
+
+ "Escreve o catch": {
+    "prefix": "ca",
+    "body": [
+		"catch (${1:Exception} ${2:e}) {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o else if":{
+    "prefix": "elif",
+    "body": [
+		"else if ($1) {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o do while":{
+    "prefix": "dow",
+    "body": [
+		"do {\n\t$1\n} while ($2);$0"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o else":{
+    "prefix": "el",
+    "body": ["else {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o final":{
+    "prefix": "fi",
+    "body": [
+		"final "
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o finally":{
+    "prefix": "fy",
+    "body": [
+		"finally {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+  "Escreve o for":{
+    "prefix": "for",
+    "body": [
+		"for (int $1; $2; $3) {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o if":{
+    "prefix": "if",
+    "body": ["if ($1) {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o import":{
+    "prefix": "im",
+    "body": ["import "],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o interface":{
+    "prefix": "in",
+    "body": ["interface ${1:MyInterface} ${2:extends ${3:Parent} }{\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o private":{
+    "prefix": "pr",
+    "body": ["private "
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o protected":{
+    "prefix": "po",
+    "body": ["protected "
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o public":{
+    "prefix": "pu",
+    "body": ["public "],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o return":{
+    "prefix": "re",
+    "body": ["return "],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o serialVersionUID":{
+    "prefix": "se",
+    "body": ["private static final long serialVersionUID = ${1:42}l;$0"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o static":{
+    "prefix": "st",
+    "body": ["static "
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o switch":{
+    "prefix": "sw",
+    "body": ["switch ($1) {\n\t$0\n}"],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o synchronized":{
+    "prefix": "sy",
+    "body": ["synchronized "],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o throw new":{
+    "prefix": "tn",
+    "body": ["throw new $0"],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o throw":{
+    "prefix": "th",
+    "body": ["throw $0"],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o try":{
+    "prefix": "tr",
+    "body": ["try {\n\t$0\n}"],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o variable":{
+    "prefix": "v",
+    "body": ["${1:String} ${2:var}${3: = ${0:null}};"
+	],
+		"description": "Escreve o case"
+	},
+	
+"Escreve o break":{
+    "prefix": "br",
+    "body": ["break;\n"],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o constant string":{
+    "prefix": "cos",
+    "body": [
+		"public static final String ${1:var} = '$2';$0"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o constant":{
+    "prefix": "co",
+    "body": [
+		"public static final ${1:String} ${2:var} = $3;$0"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o default":{
+    "prefix": "de",
+    "body": ["default:\n\t$0"],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o for (each)":{
+    "prefix": "fore",
+    "body": ["for ($1 : $2) {\n\t$0\n}"],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o import junit.framework.TestCase;":{
+    "prefix": "imt",
+    "body": ["import junit.framework.TestCase;\n$0"],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o java.beans.":{
+    "prefix": "j.b",
+    "body": ["java.beans."],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o java.io.":{
+    "prefix": "j.i",
+    "body": ["java.io."],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o java.math.":{
+    "prefix": "j.m",
+    "body": ["java.math."],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o java.net.":{
+    "prefix": "j.n",
+    "body": ["java.net."],
+		"description": "Escreve o case"
+	},
+	
+  "Escreve o java.util.":{
+    "prefix": "j.u",
+    "body": ["java.util."
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o method (main)":{
+    "prefix": "main",
+    "body": ["public static void main(String[] args) {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+	
+  "Escreve o method":{
+    "prefix": "m",
+    "body": ["${1:void} ${2:method}($3) ${4:throws $5 }{\n\t$0\n}\n"
+	],
+		"description": "Escreve o case"
+	},
+  "Escreve o print":{
+    "prefix": "p",
+    "body": ["System.out.print($1);$0"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o println":{
+    "prefix": "pl",
+    "body": ["System.out.println($1);$0"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o test case":{
+    "prefix": "tc",
+    "body": ["public class ${1:MyTest} extends ${2:TestCase} {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o test":{
+    "prefix": "t",
+    "body": ["public void test${1:Name}() throws Exception {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	},
+
+  "Escreve o while":{
+    "prefix": "wh",
+	"body": ["while ($1) {\n\t$0\n}"
+	],
+		"description": "Escreve o case"
+	}
+
+
+}
