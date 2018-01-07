@@ -1,0 +1,3 @@
+Para instalar basta copiar o arquivo nanorc para /etc/
+
+Simples assim!
