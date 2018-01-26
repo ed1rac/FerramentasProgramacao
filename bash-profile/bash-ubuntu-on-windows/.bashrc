@@ -14,7 +14,11 @@ echo ' '
 echo '    '
 echo '  *** Sistema: '`uname -a`' ***'
 echo '   '
-echo '  *** Usuario: '`who -m`' ***'
+#echo '  *** Usuario: '`who -m`' ***'
+echo '  *** Usuário: '`whoami`' ***'
+echo '   '
+echo '  *** Endereços IP: '`hostname -I`' ***'
+echo '   '
 echo '   _ '
 
 export HISTSIZE=2000
