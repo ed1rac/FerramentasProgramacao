@@ -37,8 +37,8 @@ copiar() {
 }
 
 executa() {
-    cd ~
-    source ~/.bashrc
+    #cd ~
+    source $HOME/.bashrc
 }
 
 principal
