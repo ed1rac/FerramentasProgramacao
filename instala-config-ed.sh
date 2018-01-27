@@ -6,8 +6,12 @@ principal() {
 	apt-get install git -y
 	apt-get install nano -y
 	apt-get install vim -y
-	apt-get install iputils-ping -y
-	cd /home/edkallenn/
+	apt-get install iputils-ping -y	
+	#cd /home/edkallenn/
+	read -p "Qual a pasta que vc deseja copiar o coneteudo das Ferramentas? " pasta1
+	echo 'A pasta escolhida foi: ' $pasta1
+	cd $pasta1
+	sleep2
 	pasta='./FerramentasProgramacao/'
 
 	if [ -d $pasta ]; then
@@ -21,7 +25,9 @@ principal() {
 }
 
 copiar() {
-    raiz='/home/edkallenn/FerramentasProgramacao/'
+    #raiz='/home/edkallenn/FerramentasProgramacao/'
+    raiz=$pasta1'/FerramentasProgramacao/'
+    echo $raiz
     cd $raiz
     pwd
     cp bash-profile/bash-ubuntu-on-windows/.bashrc ~ -r -f -v
@@ -31,6 +37,7 @@ copiar() {
 }
 
 executa() {
+    cd ~
     source .bashrc
 }
 
