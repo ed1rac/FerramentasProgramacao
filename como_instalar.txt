@@ -1,0 +1,10 @@
+Para instalar as ferramentas, faça, no terminal:
+
+$ sudo touch instala-config.sh
+$ sudo curl https://raw.githubusercontent.com/ed1rac/FerramentasProgramacao/master/instala-config-ed.sh > instala-config-ed.sh
+$ sudo chmod +x instala-config.sh
+$ sudo ./instala-config.sh
+
+ou copie e cole a linha abaixo:
+sudo touch instala-config.sh && sudo curl https://raw.githubusercontent.com/ed1rac/FerramentasProgramacao/master/instala-config-ed.sh > instala-config-ed.sh && sudo chmod +x instala-config.sh && sudo ./instala-config.sh
+
