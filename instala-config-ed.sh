@@ -11,7 +11,7 @@ principal() {
 	read -p "Qual a pasta que vc deseja copiar o coneteudo das Ferramentas? " pasta1
 	echo 'A pasta escolhida foi: ' $pasta1
 	cd $pasta1
-	sleep2
+	sleep 2
 	pasta='./FerramentasProgramacao/'
 
 	if [ -d $pasta ]; then
