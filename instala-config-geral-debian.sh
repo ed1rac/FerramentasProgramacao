@@ -5,7 +5,7 @@ principal() {
 	#cd /home/edkallenn/
 	#read -p "Qual a pasta que vc deseja copiar o coneteudo das Ferramentas? " pasta1
 	#echo 'A pasta escolhida foi: ' $pasta1
-	"$pasta1 = '~'	
+	#$pasta1 = '~'	
 	apt-get install fortune -y
 	cd $HOME
 	pasta='./FerramentasProgramacao/'
