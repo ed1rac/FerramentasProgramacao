@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 principal() {
 	echo "Script de inicialização Geral do Ed - Debian"
 	sleep 2
