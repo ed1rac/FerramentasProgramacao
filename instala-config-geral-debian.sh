@@ -37,7 +37,7 @@ copiar() {
 executa() {
     #cd ~
     source $HOME/.bashrc
-    fortune | cowsay -f tux
+    /usr/games/fortune | /usr/games/cowsay -f tux
 }
 
 principal
