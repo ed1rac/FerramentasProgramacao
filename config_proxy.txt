@@ -9,3 +9,31 @@ Acquire::https::proxy "http://<usuario>:<senha>@proxy.dpf.gov.br:3128/";
 export http_proxy=http://<usuario>:<senha>@proxy.dpf.gov.br:3128/
 export https_proxy=http://<usuario>:<senha>@proxy.dpf.gov.br:3128/
 export ftp_proxy=http://<usuario>:<senha>@proxy.dpf.gov.br:3128/
+
+
+Entretanto tudo que foi apresentado até agora é volátil, ou seja, desaparece após o logout.
+Para tornar esta configuração permanente, há duas formas:
+
+A primeira por usuário, usando o usuário logado como exemplo, acrescente a configuração ao arquivo ~/.bashrc, ou ao arquivo ~/.bash_profile.
+
+export https_proxy=http://proxy.incolume.com.br:3128
+export http_proxy=http://proxy.incolume.com.br:3128
+export ftp_proxy=http://proxy.incolume.com.br:3128
+
+Se o proxy for autenticado, acrescente:
+
+export https_proxy=http://username:password@proxy.incolume.com.br:3128
+export http_proxy=http://username:password@proxy.incolume.com.br:3128
+export ftp_proxy=http://username:password@proxy.incolume.com.br:3128
+
+A segunda é no sistema, acrescente a configuração no arquivo /etc/profile.
+
+export https_proxy=http://proxy.incolume.com.br:3128
+export http_proxy=http://proxy.incolume.com.br:3128
+export ftp_proxy=http://proxy.incolume.com.br:3128
+
+Se o proxy for autenticado, acrescente:
+
+export https_proxy=http://username:password@proxy.incolume.com.br:3128
+export http_proxy=http://username:password@proxy.incolume.com.br:3128
+export ftp_proxy=http://username:password@proxy.incolume.com.br:3128
