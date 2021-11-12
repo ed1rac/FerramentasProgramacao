@@ -39,6 +39,7 @@ copiar() {
 executa() {
     #cd ~
     source $HOME/.bashrc
+    #EXPORT DISPLAY=:0  #Para o WSL 'visual' usando Xming
 }
 
 principal
