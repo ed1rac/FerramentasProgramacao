@@ -1,5 +1,5 @@
-*++.rtunes em Português:+
-.+
+## Fortunes em Português:
+
 `sudo apt-get install fortunes-br`
 
 Em seguida, para o cowsay:
