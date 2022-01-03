@@ -1,0 +1,92 @@
+source .bashrc 
+gedit
+sudo apt install gedit
+ls
+gedit instala-config.ed.sh &
+sudo apt install openssh-server
+ssh
+sudo service ssh --full-restart
+sudo apt-get install x11-apps
+gedit instala-config.ed.sh &
+EXPORT DISPLAY=:0
+source .bashrc 
+gedit instala-config.ed.sh &
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove -y
+sudo apt install -y ca-certificates findutils command-not-found vim nano curl openssh-client less screen apt-utils top htop whois git python3-pip
+sudo apt install -y ca-certificates findutils command-not-found vim nano curl openssh-client less screen apt-utils whois git python3-pip
+nano .bashrc 
+echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
+. ~/.bashrc
+gedit instala-config.ed.sh &
+gchess
+sudo apt install gnuchess
+gnuchess &
+gnuchess 1 &
+y
+/usr/games/fortune | /usr/games/cowsay -f tux
+apt-get install fortunes -y
+sudo apt-get install fortunes -y
+sudo apt-get install fortunes-br -y
+fortune | cowsay -f tux
+sudo apt install cowsay
+fortune | cowsay -f tux
+fortunes | cowsay -f tux
+fortune-br | cowsay -f tux
+fortune | cowsay -f tux
+fortune
+wget -c https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/7.1/x86_64/media/core/updates/fortune-mod-2.6.2-2.4.mga7.x86_64.rpm ~/Downloads
+wget -c https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/7.1/x86_64/media/core/updates/fortune-mod-2.6.2-2.4.mga7.x86_64.rpm ~/Downloads --no-check-certificate
+wget -c https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/7.1/x86_64/media/core/release/lib64recode0-3.7.1-2.mga7.x86_64.rpm ~/Downloads
+wget -c https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/7.1/x86_64/media/core/release/lib64recode0-3.7.1-2.mga7.x86_64.rpm ~/Downloads --no-ckech-certificate
+wget -c https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/7.1/x86_64/media/core/release/lib64recode0-3.7.1-2.mga7.x86_64.rpm ~/Downloads --no-ckeck-certificate
+wget -c https://distrib-coffee.ipsl.jussieu.fr/pub/linux/Mageia/distrib/7.1/x86_64/media/core/release/lib64recode0-3.7.1-2.mga7.x86_64.rpm ~/Downloads --no-check-certificate
+wget -c http://ftp.br.debian.org/debian/pool/main/f/fortunes-br/fortunes-br_20160820_all.deb ~/Downloads --no-check-certificate
+rm /usr/share/games/fortunes/*
+sudo rm /usr/share/games/fortunes/*
+cd ~/Downloads && rpm2txz fortune-mod-2.6.2-2.4.mga7.x86_64.rpm
+cd ~/Downloads 
+ls
+pwd
+md Downloads
+mkdir Downloads
+ls
+mv *.rpm *.deb Downloads/
+ls
+cd Downloads/
+ls
+rpm2txz fortune-mod-2.6.2-2.4.mga7.x86_64.rpm
+sudo apt install rpm2txz 
+sudo apt-get install rpm2txz 
+sudo apt-get install rpm2tgz 
+rpm2tgz fortune-mod-2.6.2-2.4.mga7.x86_64.rpm
+upgradepkg
+sudo apt install upgrade pkg
+sudo apt install upgradepkg
+sudo add-apt-repository universe
+sudo apt install alien rpm
+ls
+ls -lah
+sudo alien fortune-mod-2.6.2-2.4.mga7.x86_64.rpm 
+sudo alien fortunes-br_20160820_all.deb 
+sudo alien lib64recode0-3.7.1-2.mga7.x86_64.rpm 
+ls -lah
+sudo alien lib64recode0-3.7.1-2.mga7.x86_64.rpm 
+ls -lah
+ls *.deb
+ls *.deb -lah
+sudo dpkg -i *.deb
+sudo apt install -f
+fortune
+pwd
+cd ..
+ls
+pwd
+ls -lah
+nano .bashrc 
+. ~/.bashrc
+snap
+snap list
+. ~/.bashrc
+sudo apt update
+sudo apt update
+history 100 > instalar-fortunes-pt-br-e-outros.txt
