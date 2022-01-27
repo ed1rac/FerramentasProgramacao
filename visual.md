@@ -1,3 +1,7 @@
+- instala Xming (no Windows)
+
+Depois: (na VM, no contêiner ou no WSL2)
+
 ```
 sudo apt install openssh-server
 ssh
