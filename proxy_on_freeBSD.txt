@@ -1,0 +1,6 @@
+#
+#
+# No FreeBSD deve-se editar o arquivo ~/.cshrc e inserir a linha
+# http_proxy http://my.proxy.server:3128
+#
+echo "http_proxy http://<usuario>:<senha>@proxy.com.br:3128";" >> ~/.cshrc
