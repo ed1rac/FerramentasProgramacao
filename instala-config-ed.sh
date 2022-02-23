@@ -40,6 +40,7 @@ executa() {
     #cd ~
     source $HOME/.bashrc
     #EXPORT DISPLAY=:0  #Para o WSL 'visual' usando Xming
+    #xrandr -s aResoluçãoEscolhida >> .profile    # linha para configurar a resolução no Bodhi Linux
 }
 
 principal
