@@ -20,7 +20,7 @@ echo '   '
 echo '  *** Endereços IP: '`hostname -I`' ***'
 echo '   '
 echo '   _ '
-fortune | cowsay -f tux
+#fortune | cowsay -f tux
 
 export HISTSIZE=2000
 
