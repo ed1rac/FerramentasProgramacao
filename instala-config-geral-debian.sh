@@ -9,10 +9,10 @@ principal() {
 	apt-get install fortunes -y
 	apt-get install fortunes-br -y
 	cd $HOME
-	pasta='./FerramentasProgramacao/'
+	pasta='/FerramentasProgramacao/'
 	
 	if [ -d $pasta ]; then
-    		echo "O diretório $pasta já existe"
+    	echo "O diretório $pasta já existe"
 		copiar
 	else
     		git clone https://github.com/ed1rac/FerramentasProgramacao.git
@@ -37,7 +37,8 @@ copiar() {
 executa() {
     #cd ~
     source $HOME/.bashrc
-    /usr/games/fortune | /usr/games/cowsay -f tux
+    #/usr/games/fortune | /usr/games/cowsay -f tux
+	echo "/usr/games/fortune | /usr/games/cowsay -f tux" >> ~/.bashrc
 }
 
 principal

@@ -9,7 +9,7 @@ principal() {
 	#apt-get install fortunes -y
 	#apt-get install fortunes-br -y
 	cd $HOME
-	pasta='./FerramentasProgramacao/'
+	pasta='/FerramentasProgramacao/'
 	
 	if [ -d $pasta ]; then
     		echo "O diretório $pasta já existe"

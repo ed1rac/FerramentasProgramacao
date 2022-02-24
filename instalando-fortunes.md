@@ -15,3 +15,6 @@ Depois, edita-se o `.bashrc` e inclui a linha:
 A linha correta no `.bashrc` é:
 
 `/usr/games/fortune | /usr/games/cowsay -f tux`
+
+## Alternativa
+É possível também executar o script `FerramentasProgramacao\instalando-fortunes.sh`
