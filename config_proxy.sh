@@ -18,7 +18,8 @@ proxy(){
 	echo "Acquire::https::proxy \"http://<usuario>:<senha>@proxy.incolume.com.br:3128/\";" >> /etc/apt/apt.conf.d/80proxy
 	echo "export https_proxy=http://username:password@proxy.incolume.com.br:3128" >> ~/.bashrc
 	echo "export http_proxy=http://username:password@proxy.incolume.com.br:3128" >> ~/.bashrc
-	echo "export ftp_proxy=http://username:password@proxy.incolume.com.br:3128" >> ~/.bashrc	
+	echo "export ftp_proxy=http://username:password@proxy.incolume.com.br:3128" >> ~/.bashrc
+	git config --global http.proxy http://username:senh@nov4@proxy.servername.com.br:3128
 }
 
 executa() {
