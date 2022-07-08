@@ -19,6 +19,7 @@ principal() {
     	echo "O diretório $pasta já existe"
 		copiar
 	else
+	cd $pasta
     	git clone https://github.com/ed1rac/FerramentasProgramacao.git
     	copiar
 	fi
