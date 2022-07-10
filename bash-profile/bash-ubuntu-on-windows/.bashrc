@@ -2,7 +2,7 @@ export PS1='\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h: \[\033[33;1m\]\W\[\033[m\]\
 #export CLICOLOR=1
 #export LS_COLORS='ExFxBxDxCxegedabagacad'
 #LS_COLORS='di=1;33'; export LS_COLORS
-#neofetch
+neofetch
 
 # Boas Vindas.
 echo '   _ '
@@ -33,3 +33,10 @@ export LS_COLORS
 #EXPORT DISPLAY=:0  #Para o WSL 'visual' usando Xming
 
 export DISPLAY=localhost:0.0
+
+alias l='ls --color -lhF --group-directories-first'
+alias les=less
+alias parallel='parallel --will-cite'
+alias python=python3
+alias skll=run_experiment
+alias which-command=whence
