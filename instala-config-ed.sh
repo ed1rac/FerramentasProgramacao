@@ -7,11 +7,12 @@ principal() {
 	apt install git -y
 	apt install nano -y
 	apt install vim -y
-	apt install iputils-ping -y	
+	apt install iputils-ping -y
+	apt install neofetch
 	#cd /home/edkallenn/
 	read -p "Qual a pasta que vc deseja copiar o coneteudo das Ferramentas? (/home/edkallenn) " pasta1
 	echo 'A pasta escolhida foi: ' $pasta1
-	cd $pasta1
+	cd $pasta1	
 	sleep 2
 	pasta=$HOME'/FerramentasProgramacao/'
 
@@ -31,7 +32,8 @@ copiar() {
     #raiz=$pasta1'/FerramentasProgramacao/'	
 	raiz=$HOME'/FerramentasProgramacao/'	
     #echo $raiz	
-    cd $raiz
+    #cd $raiz
+    cd $HOME'/FerramentasProgramacao/'
     pwd
     cp bash-profile/bash-ubuntu-on-windows/.bashrc ~ -r -f -v
     cp nano/nanorc /etc -f -v
