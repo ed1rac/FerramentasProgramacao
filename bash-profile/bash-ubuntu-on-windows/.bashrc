@@ -34,9 +34,38 @@ export LS_COLORS
 
 export DISPLAY=localhost:0.0
 
+#alias
 alias l='ls --color -lhF --group-directories-first'
 alias les=less
 alias parallel='parallel --will-cite'
 alias python=python3
 alias skll=run_experiment
 alias which-command=whence
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias mkdir='mkdir -p'
+alias less='less -R'
+alias git-diff='git diff --color-words'
+alias ..='cd ..'
+alias srcrc='source ~/.bashrc'
+alias ll='ls -l --group-directories-first'
+alias la='ls -A'
+alias lla='ll -A'
+alias lsdir='ls -d */'
+alias lx='ls -lXB'
+alias lsize='ls -lSr'
+alias ltime='ls -ltcr'
+alias ldate='ls -ltr'
+alias lr='ls -lR'
+alias tree='tree -Csu'
+alias grep='grep --color'
+alias list='ls -1'
+alias lsexec='ls -F | grep "*"'
+alias df='df -Th'
+alias du='du -h'
+alias dusort='du -s -BM * | sort -n'
+alias free='free -h'
+alias cache_clear='sudo sh -c "sync; echo 3 > /proc/sys/vm/drop_caches" '
+alias sort='LC_ALL=C sort'
+alias c='clear'
