@@ -32,7 +32,9 @@ LS_COLORS='di=1;33:fi=0:ex=92'
 export LS_COLORS
 #EXPORT DISPLAY=:0  #Para o WSL 'visual' usando Xming
 
-export DISPLAY=localhost:0.0
+#export DISPLAY=localhost:0.0   # alterado em 15/03 por Ed
+export LIBGL_ALWAYS_INDIRECT=1
+export DISPLAY=$(hostname).local:0
 
 #alias
 alias l='ls --color -lhF --group-directories-first'
