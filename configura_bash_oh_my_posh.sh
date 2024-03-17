@@ -7,7 +7,7 @@ principal() {
 
 copia_oh_my_posh(){
 	#curl -s https://ohmyposh.dev/install.sh | bash -s
-	curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~
+	curl -s https://ohmyposh.dev/install.sh | bash -s -- -d /home/vscode
 	~/oh-my-posh font install 3270
 	~/oh-my-posh font install CascadiaCode
 	~/oh-my-posh font install Arimo
