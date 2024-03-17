@@ -25,7 +25,7 @@ principal() {
     	copiar
 	#fi
 	executa
- 	echo "Alterando o prompt"
+ 	echo "Alterando o prompt"	
 	sleep 2
 	copia_oh_my_posh
 }
