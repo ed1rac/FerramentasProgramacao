@@ -71,3 +71,5 @@ alias free='free -h'
 alias cache_clear='sudo sh -c "sync; echo 3 > /proc/sys/vm/drop_caches" '
 alias sort='LC_ALL=C sort'
 alias c='clear'
+
+eval "$(/usr/local/bin/oh-my-posh init bash --config ~/themes/amro.omp.json)"
