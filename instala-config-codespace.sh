@@ -25,7 +25,7 @@ principal() {
     	copiar
 	#fi
 	executa
-	copia_oh_my_posh
+	#copia_oh_my_posh
 }
 
 copiar() {
