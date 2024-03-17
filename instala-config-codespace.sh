@@ -25,6 +25,7 @@ principal() {
     	copiar
 	#fi
 	executa
+	copia_oh_my_posh
 }
 
 copiar() {
@@ -48,9 +49,17 @@ executa() {
 	apt install cowsay	
 	echo "export DISPLAY=:0" >> $HOME/.bashrc  	#Para o WSL 'visual' usando Xming
 	echo "/usr/games/fortune | /usr/games/cowsay -f tux" >> ~/.bashrc
-  source $HOME/.bashrc
-  cd $HOME
-  #xrandr -s aResoluçãoEscolhida >> .profile  # linha para configurar a resolução no Bodhi Linux
+  	source $HOME/.bashrc
+  	cd $HOME
+  	#xrandr -s aResoluçãoEscolhida >> .profile  # linha para configurar a resolução no Bodhi Linux
+}
+
+copia_oh_my_posh(){
+	curl -s https://ohmyposh.dev/install.sh | bash -s
+	/usr/local/bin/oh-my-posh font install 3270
+	/usr/local/bin/oh-my-posh font install CascadiaCode
+	/usr/local/bin/oh-my-posh font install Arimo
+	/usr/local/bin/oh-my-posh font install DroidSansMono
 }
 
 principal
