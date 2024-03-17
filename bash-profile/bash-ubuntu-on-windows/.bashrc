@@ -2,6 +2,9 @@ export PS1='\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h: \[\033[33;1m\]\W\[\033[m\]\
 #export CLICOLOR=1
 #export LS_COLORS='ExFxBxDxCxegedabagacad'
 #LS_COLORS='di=1;33'; export LS_COLORS
+#Os temas do oh-my-posh estao em: /home/edkallenn/.cache/oh-my-posh/themes
+#eval "$(~/posh/./oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/rudolfs-dark.omp.json)"
+#eval "$(~/posh/./oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/amro.omp.json)"
 neofetch
 
 # Boas Vindas.
