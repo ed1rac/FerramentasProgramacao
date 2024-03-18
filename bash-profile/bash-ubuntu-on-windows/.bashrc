@@ -21,7 +21,7 @@ echo '   '
 #echo '  *** Usuario: '`who -m`' ***'
 echo '  *** Usuário: '`whoami`' ***'
 echo '   '
-echo '  *** Endereços IP: '`hostname -I`' ***'
+echo '  *** Endereços IP: '`hostname -i`' ***'
 echo '   '
 echo '   _ '
 #fortune | cowsay -f tux
