@@ -8,7 +8,7 @@ principal() {
 	apt install nano -y
 	apt install vim -y
 	apt install iputils-ping -y
-	apt install neofetch
+	apt install neofetch -y
 	#cd /home/edkallenn/
 	#read -p "Qual a pasta que vc deseja copiar o coneteudo das Ferramentas? (/home/edkallenn) " pasta1
 	#echo 'A pasta escolhida foi: ' $pasta1
@@ -45,8 +45,8 @@ copiar() {
 executa() {
 	#cd ~
 	echo "Instalação do Fortunes-b e o Cowsay"
-	apt-get install fortunes-br
-	apt install cowsay
+	apt-get install fortunes-br -y
+	apt install cowsay -y
 	echo "export DISPLAY=:0" >> $HOME/.bashrc  	#Para o WSL 'visual' usando Xming
 	echo "/usr/games/fortune | /usr/games/cowsay -f tux" >> ~/.bashrc
 	source $HOME/.bashrc
