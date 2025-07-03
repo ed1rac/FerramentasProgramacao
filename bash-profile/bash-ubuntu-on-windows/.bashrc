@@ -5,6 +5,13 @@ export PS1='\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h: \[\033[33;1m\]\W\[\033[m\]\
 #Os temas do oh-my-posh estao em: /home/edkallenn/.cache/oh-my-posh/themes
 #eval "$(~/posh/./oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/rudolfs-dark.omp.json)"
 #eval "$(~/posh/./oh-my-posh init bash --config ~/.cache/oh-my-posh/themes/amro.omp.json)"
+
+# Adiciona oh-my-posh ao PATH  --> nova configuração com novo script do oh-my-posh
+export PATH="$PATH:$HOME/.oh-my-posh"
+
+# Inicializa oh-my-posh
+eval "$(oh-my-posh init bash --config $HOME/.cache/oh-my-posh/themes/nomedotema.omp.json)"
+
 neofetch
 
 # Boas Vindas.
