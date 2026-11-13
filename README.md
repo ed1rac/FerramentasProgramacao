@@ -1,14 +1,13 @@
 # 🛠️ O Setup Linux & Terminal do Prof. Ed
 
 <div align="center">
-
-[![Linux](https://img.shields.io/badge/Linux-Mint_%7C_Debian_%7C_Ubuntu-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://linuxmint.com/)
-[![Bash](https://img.shields.io/badge/Shell-Bash_Scripting-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)](https://www.gnu.org/software/bash/)
-[![Oh My Posh](https://img.shields.io/badge/Prompt-Oh_My_Posh-blueviolet?style=for-the-badge)](https://ohmyposh.dev/)
-[![Vim](https://img.shields.io/badge/Editor-Vim_Power-019733?style=for-the-badge&logo=vim&logoColor=white)](https://www.vim.org/)
-
-**Coleção completa de scripts de automação pós-instalação, dotfiles, configurações de proxy institucional e temas para transformar qualquer terminal Linux em uma estação hacker de alta produtividade.**
-
+  <p>
+    <a href="https://linuxmint.com/"><img src="https://img.shields.io/badge/Linux-Mint_%7C_Debian_%7C_Ubuntu-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"></a>
+    <a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/Shell-Bash_Scripting-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash"></a>
+    <a href="https://ohmyposh.dev/"><img src="https://img.shields.io/badge/Prompt-Oh_My_Posh-blueviolet?style=for-the-badge" alt="Oh My Posh"></a>
+    <a href="https://www.vim.org/"><img src="https://img.shields.io/badge/Editor-Vim_Power-019733?style=for-the-badge&logo=vim&logoColor=white" alt="Vim"></a>
+  </p>
+  <p><strong>Coleção completa de scripts de automação pós-instalação, dotfiles, configurações de proxy institucional e temas para transformar qualquer terminal Linux em uma estação hacker de alta produtividade.</strong></p>
 </div>
 
 ---
