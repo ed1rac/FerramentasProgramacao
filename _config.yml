@@ -1,0 +1,5 @@
+theme: jekyll-theme-hacker
+title: "🛠️ Setup Linux & Terminal Hacker — Prof. Ed"
+description: "Coleção de scripts de automação, dotfiles, Oh My Posh, Vim e ferramentas para desenvolvedores Linux."
+kramdown:
+  parse_block_html: true
